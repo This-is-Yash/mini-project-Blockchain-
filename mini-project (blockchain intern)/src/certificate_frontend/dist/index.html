@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blockchain Certificate</title>
+</head>
+<body>
+  <h1>Issue Certificate</h1>
+  <input id="student" placeholder="Student Name"><br>
+  <input id="course" placeholder="Course Name"><br>
+  <button onclick="issue()">Issue Certificate</button>
+
+  <h2>Verify Certificate</h2>
+  <input id="hash" placeholder="Certificate Hash (hex)">
+  <button onclick="verify()">Verify</button>
+
+  <pre id="output"></pre>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>

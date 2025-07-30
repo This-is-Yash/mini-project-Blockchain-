@@ -1,0 +1,23 @@
+{
+    "version": 1,
+    "canisters": {
+      "certificate_backend": {
+        "type": "rust",
+        "main": "src/certificate_backend/src/lib.rs",
+        "candid": "src/certificate_backend/src/certificate_backend.did",
+        "dependencies": []
+      },
+      "certificate_frontend": {
+        "type": "assets",
+        "source": "src/certificate_frontend/dist"
+      }
+    },
+    "defaults": {
+      "build": {
+        "packtool": ""
+      }
+    },
+    "dfx": "0.17.0",
+    "network": "local"
+  }
+  

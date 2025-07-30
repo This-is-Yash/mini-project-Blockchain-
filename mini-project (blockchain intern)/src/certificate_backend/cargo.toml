@@ -1,0 +1,9 @@
+[package]
+name = "certificate_backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ic-cdk = "0.12"
+candid = "0.10"
+serde = { version = "1.0", features = ["derive"] }
