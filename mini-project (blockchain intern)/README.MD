@@ -12,4 +12,13 @@ This project is a blockchain-based certificate system built on the Internet Comp
 ---
 
 ## 📦 Project Structure
-
+miniproject/
+├── src/
+│ ├── certificate_backend/ # Rust-based canister
+│ │ ├── Cargo.toml
+│ │ └── src/lib.rs
+│ ├── certificate_frontend/ # HTML/JS UI
+│ │ └── dist/index.html
+│ │ └── dist/script.js
+├── dfx.json
+├── README.md
