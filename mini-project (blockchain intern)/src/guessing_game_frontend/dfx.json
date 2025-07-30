@@ -1,0 +1,14 @@
+{
+  "canisters": {
+    "guessing_game_backend": {
+      "type": "rust",
+      "main": "src/guessing_game_backend/src/lib.rs"
+    },
+    "guessing_game_frontend": {
+      "type": "assets",
+      "source": "src/guessing_game_frontend/dist"
+    }
+  },
+  "dfx": "0.17.0",
+  "network": "local"
+}
